@@ -1,0 +1,42 @@
+#change your mysql user and password
+db:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: 123456
+    db_name: weibo
+    db_type: mysql
+
+#please add your uid,there can be more than one uids
+uids:
+    1: 1645171780
+    2: 1866402485
+    3: 6037740397
+    4: 1972184873
+
+
+#please add your account cookies(small count,not big count,becaues may be banned)
+cookies:
+    1: SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WFpv1nS1Udx7srShR8mR9p.5NHD95QceheNS0B7e0.NWs4DqcjMi--ci-z0i-z7i--ciKLsiKLWi--Ni-2RiKLWP7tt; _T_WM=85ee107279381213f94584d7afd0d169; _TTT_USER_CONFIG_H5={"ShowMblogPic":1,"ShowUserInfo":1,"MBlogPageSize":10,"ShowPortrait":1,"CssType":0,"Lang":1}; SCF=AnKeBQ9fuV3N7Bg01oGWRqRqM8Cfz625GuKzPFGZDQsZexsPZ-b6CG3p6Uyjqu5pqcmQmiZ9_ZHXm0Oc-h_g8MU.; SUB=_2A25O4KN_DeRhGeBO6FUW9C7PwjuIHXVqKs03rDV6PUJbktAKLVj1kW1NSh_121CIKZUb6i0MYc-aL84YRedy59LA; SSOLoginState=1675940656; XSRF-TOKEN=80a85a; WEIBOCN_FROM=1110006030; mweibo_short_token=d2cd7e82dd; MLOGIN=1; M_WEIBOCN_PARAMS=luicode=20000174&uicode=20000174
+    #2: _T_WM=17ddf36185fa05928df85390206cc99e; MLOGIN=0; M_WEIBOCN_PARAMS=uicode%3D10000011%26fid%3D102803; SUB=_2A252Jm93DeRhGeBK7lAV8yfIyzyIHXVV6XE_rDV6PUJbkdBeLVfVkW1NR7ex31922SwVAsr-r8BtHMH-tjyP5bYE; SUHB=079j4ILhM97JcL; SCF=Ai5UyFtcjzJlxDyblLOeU87DbFXQsoI_q8c_61YX8Q7XQY5dGTS4tzUsiYHhR6sJ_eeVuzSj6ve8Tcmz1QU1EOc.; SSOLoginState=1528962855
+    #3: _T_WM=17ddf36185fa05928df85390206cc99e; SUB=_2A252Jm93DeRhGeBK7lAV8yfIyzyIHXVV6XE_rDV6PUJbkdBeLVfVkW1NR7ex31922SwVAsr-r8BtHMH-tjyP5bYE; SUHB=079j4ILhM97JcL; SCF=Ai5UyFtcjzJlxDyblLOeU87DbFXQsoI_q8c_61YX8Q7XQY5dGTS4tzUsiYHhR6sJ_eeVuzSj6ve8Tcmz1QU1EOc.; SSOLoginState=1529033043; ALF=1531625043
+    #4: _T_WM=17ddf36185fa05928df85390206cc99e; SUB=_2A252Jm93DeRhGeBK7lAV8yfIyzyIHXVV6XE_rDV6PUJbkdBeLVfVkW1NR7ex31922SwVAsr-r8BtHMH-tjyP5bYE; SUHB=079j4ILhM97JcL; SCF=Ai5UyFtcjzJlxDyblLOeU87DbFXQsoI_q8c_61YX8Q7XQY5dGTS4tzUsiYHhR6sJ_eeVuzSj6ve8Tcmz1QU1EOc.; SSOLoginState=1529033149; ALF=1531625149
+
+#you can replace user agents
+user_agents:
+    1: 'Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36'
+    2: 'Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36'
+    3: 'Mozilla/5.0 (Apple-iPhone7C2/1202.466; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543 Safari/419.3'
+
+#Proxies ip,please replace the following ip with a valid one that can  be used.There can be more than one ips.etc:  ip:port
+IP:
+    1: 219.141.153.2:80
+    2: 115.150.231.108:808
+
+#This is for getting cookies
+loginname:
+    1: username
+
+
+password:
+    1: password

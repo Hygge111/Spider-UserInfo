@@ -1,0 +1,1 @@
+weibo/sina_spider.py 用于收集用户个人资料信息
